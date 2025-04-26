@@ -1,7 +1,7 @@
 "use server";
 
 import * as z from "zod";
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 import { RegisterSchema } from "@/lib/schemas";
 import db from "@/prisma/prisma";
 import { signIn } from "@/auth"; // use server-side signIn from auth.js
